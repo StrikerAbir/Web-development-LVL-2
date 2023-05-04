@@ -31,8 +31,12 @@ const userNameNdRollG: GenericArray<{ name: string; roll: number }> = [
 type GenericArray2<X, Y> = [X, Y]; //tuple er jonne
 
 const relation: GenericArray2<string, string> = ["ban", "po"];
-type RelwithSalryType = { name: string; money: number };
-const relationMoney: GenericArray2<RelwithSalryType, string> = [
+// type RelwithSalryType = { name: string; money: number };
+interface RelwithSalryTypeInterface {
+  name: string;
+  money: number;
+}
+const relationMoney: GenericArray2<RelwithSalryTypeInterface, string> = [
   { name: "bane", money: 123 },
   "itspo",
 ];
