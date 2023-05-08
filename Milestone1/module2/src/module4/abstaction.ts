@@ -73,3 +73,5 @@ class Car extends Vehicle3 {
   }
 }
 const car1 = new Car("car", "honda", "2393");
+
+//note: interface jokhn use korsi move function ta must use korte lagse. but jokhn abstact class use korsi tokhn kora lagini. ba korlew pblm silo na. emni tei parant theke ashsilo. karon holo move funciton ta abstact class er moddhe method abstact kora nai tai. jodi thakto tahole must korte hoto.
